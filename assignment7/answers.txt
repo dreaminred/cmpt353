@@ -1,0 +1,3 @@
+1. By plotting a histogram of the residuals, we can observe a normal distribution. The normal test is not appropriate for large samples. The p-value, 2.5e-127, from linear regression is also less than our significance level, alpha=0.05. Therefore we can conclude the ratings are increasing w.r.t. time.
+
+2. Hard to distinguish what the true signal is however, this KF can capture the spikes in temperature much more frequently when compared to Ex.3. The residuals also have a normal distribution.

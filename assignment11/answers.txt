@@ -1,0 +1,5 @@
+1. One cache() is placed at the start to reduce file loading. The other is placed after a series of calculations, filters, and joins.
+
+
+2. Without broadcasting: 54 seconds
+   With broadcasting: 46 seconds

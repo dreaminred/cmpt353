@@ -1,0 +1,12 @@
+1. It matters how confident we are in assuming that the search feature is only relevant to instructors. By segmenting the data, we are also the changing the original question we were asking which is now relevant to only instructors and not the whole userbase. The results of the test at p < 0.05 indicates that the treatment instructors used the search feature more than their control counterpart.
+
+2. The number of t-tests we can run are (n^2 - n)/2 where n is the number of sorting methods. There the probability of coming to a false conclusion would be 0.05/21 ~= 0.024.
+
+3. By quickly plotting the time distributions for each function in one histogram, we can observe the partition sort is the fastest, and the quicksort1 is the second fastest. mergesort1 is the slowest and qs2,qs3,qs4, and qs5 are undistinguishable by eye but have similar spread in their distributions. Performing t-tests for any combination of data from qs2 to qs5 did not show they were of different distributions. A more robust test would to analyze the distribution of average times for each sort implementation.
+
+Ranking:
+1.Partition
+2.Quicksort 1
+3.Quicksort 5
+4-6. Quicksort 2,3,4,
+7. Mergesort

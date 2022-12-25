@@ -1,0 +1,12 @@
+1. The best fit line is a prediction of ratings based on time. The linregress function uses the least square 
+method to find a linear relationship between the variables. The fit slope describes the rate of increase of
+rankings with respect to the timestamp units (3.52e-08 rating/timestamp unit)(timestamp unit is seconds in 
+this case). A positive slope indicates the score is increasing with time. However a linear model 
+may not be correct as the scores approach an asymptote. The intercept is an offset for fitting and 
+has units of rating. The data type is float64.
+
+2. The least square method minimizes the error function between the prediction and truth values. 
+An exponential decay function may have an easier time capturing the trend. 
+The timestamp values are the number of seconds after the year 1970. We used numerical timestamps to calculate 
+the rating prediction. Then, we plotted the predictions at their respective timestamps in yyyy-mm format.
+

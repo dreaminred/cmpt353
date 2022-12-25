@@ -1,0 +1,6 @@
+1. NumPy was easier to pick up and start using with the commands but it didn't offer the visual display of the data like pandas. 
+   With NumPyI had to individually check the totals.csv and counts.csv files for the axes. Printing pandas dataframes is also very convenient as the labels are shown
+   and we are not left with only indices.
+
+2. I ran the notebook on sfu.syzygy.ca. The pandas method took approximately twice as long to run when compared to the for loops method. This might be partly due
+   to usage of the dataframe apply() method (O(n)) for changing the date format since it uses a for loop.

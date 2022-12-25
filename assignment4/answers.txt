@@ -1,0 +1,3 @@
+1. Temperature is not a good predictor for population density as there is not a clear observable trend. The plot does however provide some insights into the relationship. At very low temperatures, population density is low as the living condition is not desirable by most people. Majority of the cities lie in the mild to moderate temperature range (15 C to 25 C).
+
+2. Our analysis is purely numerical, and we don't require file streaming methods / string manipulation. Also, the file can fit into my memory therefore not requiring further processing.

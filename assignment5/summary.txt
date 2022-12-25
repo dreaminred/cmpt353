@@ -1,0 +1,50 @@
+Set1.
+Dataset x mean: 7.22
+Dataset y mean: 7.60
+Dataset x stdev.: 11.92
+Dataset y stdev.: 11.76
+Dataset x range (min-max).: (-24.33) - (35.40)
+Dataset y range (min-max).: (-22.96) - (36.08)
+Correlation coefficient (r) between x and y: 0.94
+Desc: The data displays a highly correlated positive linear trend with outliers located near (26,-6).
+
+Set2.
+Dataset x mean: 8.72
+Dataset y mean: 12.52
+Dataset x stdev.: 12.16
+Dataset y stdev.: 6.64
+Dataset x range (min-max).: (-22.64) - (35.24)
+Dataset y range (min-max).: (-2.57) - (27.38)
+Correlation coefficient (r) between x and y: 0.95
+Desc: The data display a highly correlated trend with an offset B = +6, but with more noise compared to
+set 1.
+
+Set3.
+Dataset x mean: 49.91
+Dataset y mean: 18.55
+Dataset x stdev.: 28.51
+Dataset y stdev.: 16.55
+Dataset x range (min-max).: (0.00) - (87.38)
+Dataset y range (min-max).: (0.00) - (44.57)
+Correlation coefficient (r) between x and y: -0.08
+Desc: Plotting the coordinates and graphing them, we can see a logo of SFU.
+
+Set4.
+Dataset x mean: 0.97
+Dataset y mean: 8.51
+Dataset x stdev.: 2.24
+Dataset y stdev.: 1.15
+Dataset x range (min-max).: (-2.45) - (4.52)
+Dataset y range (min-max).: (6.64) - (10.55)
+Correlation coefficient (r) between x and y: 0.98
+The x variable is clustered while the y variable is more continuous.
+
+Set5.
+Dataset x mean: -0.71
+Dataset y mean: -0.75
+Dataset x stdev.: 11.48
+Dataset y stdev.: 6.26
+Dataset x range (min-max).: (-33.27) - (27.65)
+Dataset y range (min-max).: (-18.62) - (14.15)
+Correlation coefficient (r) between x and y: 0.96
+Since the mean of both variables are approximately the same, the offset 𝑏 of the linear trend, 𝑦=𝑚∗𝑥+𝑏, is near zero.

@@ -1,0 +1,16 @@
+Question 1:
+
+reddit-0 : 0m6.612s
+
+reddit-2 with schema: 0m13.970s
+reddit-2 without schema: 0m17.060s
+
+reddit-2 without .cache(): 0m17.115s
+reddit-2 with .cache(): 0m16.932s
+
+Question2:
+Reading the files is the slowest part of the process.
+
+
+Question 3:
+Cache() is applied before the groupBy, and join functions. I originally thought that the join would the most computationally intensive portion however it seems reading the files is the bottleneck.

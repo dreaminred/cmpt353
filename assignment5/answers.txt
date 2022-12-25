@@ -1,0 +1,6 @@
+Note: The sfu syzygy server crashed at around ~ 11pm Oct 14th. I was not able to grab a copy of summary.ipynyb however I was able to print the page to gather my results.
+1. The log transform created the best normally distributed data.
+2. The (log of) number of comments on weekdays versus. weekends comes from the same distribution. 
+3. With a large amount of data, n>1000, the t-test itself is robust enough by taking the mean and variance of the two samples.
+We know from CLT, the distribution of mean and variances are a normal, even though the population distribution might not be.
+4.I would answer this however sfu.syzygy.ca stopped working at the last second. I would look at the mean and variance of each distribution and the statistics in each approach.

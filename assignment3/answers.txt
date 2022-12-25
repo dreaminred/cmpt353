@@ -1,0 +1,3 @@
+1. Overall, the LOESS method did a better job capturing the trend of the temperature, mainly due to the quantity of data. The Kalman filter were able capture the spikes in temperature for the smaller peaks. For the largest peak at 05-11 00 am, the Kalman filter underestimated compared to the LOESS method. 
+
+2. The acceleration telemetry can be related to the frequency of the steps and the gyroscope telemetry can perhaps determine the direction changes (turning left in an intersection or suddenly choosing to cross the street). The pitch can related to going uphill/downhill. For example if the pitch is upwards, the person might be climbing a steep cliff. The climber's height change will be much larger than his positon change related to latitude and longitude.
